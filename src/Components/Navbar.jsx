@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaShoppingCart } from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
-import Cart from '../Pages/Cart'
 import { useSelector } from 'react-redux'
 
 const Navbar = () => {
