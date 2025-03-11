@@ -1,8 +1,7 @@
 import React from 'react'
 import toast from 'react-hot-toast';
 import { useDispatch, useSelector } from 'react-redux'
-import { add } from '../redux/Slices/cartSlice';
-import { remove } from '../redux/Slices/cartSlice';
+import { add,remove } from '../../redux/Slices/cartSlice';
 
 const Product = ({ post }) => {
 
